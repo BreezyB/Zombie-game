@@ -1,0 +1,44 @@
+load background and images
+runGame(){
+  drawScreen(){
+    draw background and images
+  }
+  calculate movement
+  goalReached?
+  drawScreen()
+}
+
+
+
+0 = open space
+1 = solid block
+2 = hero spawn point
+4 = mob spawn points
+3 = goal spot
+mobCount = 3, then = mobCount = (level * 2) + 1
+level = 1 (goes up every time player makes it to goal)
+
+startGame(){
+  find random spot for spawn point
+  find random spot for goal spot
+  fill random open spaces with solid blocks
+    if (0) {
+      makewall = 25%chance;
+      if (makewall = X)
+        coordinate will be 1
+      else
+        leave space as 0
+      elseif
+        <maybe other obstacles?>
+    }
+  find random spots for mobs
+   if (0){
+      mobCount = mobsToPlace;
+      while mobsToPlace > 0 {
+        pick random coordinates;
+        place mob;
+        mobsToPlace - 1;
+      }
+   }
+
+}
